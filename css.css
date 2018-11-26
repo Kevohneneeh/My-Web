@@ -1,0 +1,86 @@
+#blinker {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+
+
+#centering{
+    width:900px;
+    background-color: #ffe280;
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    text-align: center;
+}
+.x{
+    background-color: #12ff27;
+
+}.w{
+    color: #ff144e;
+    background-color: #65ff9f;
+    text-decoration: #ff84e1;
+ }.i{
+    text-align: center;
+    background-color: #12ff27;
+   }
+.j{
+    text-align: center;
+    background-color: #ffe280;
+}h1{
+font-family: myfonts;}
+@font-face {
+    font-family: myfonts;
+    src: url('fonts/lato-Black.ttf');
+}
+h3{font-family: myfonts;}
+@font-face {
+    font-family:my myfonts ;
+    src: url("fonts/lato-Black.ttf");
+}
+.a{
+    background-color: aqua;
+    text-decoration: #ff84e1;
+    font-family: myfonts;}
+@font-face {
+    font-family: myfonts;
+    src: url("fonts/Ubuntu.BoldItalic.ttf");
+
+}
+ #b{
+     background-color: #6affa3;
+ }
+ a:hover{
+     color: #d8fff3;
+ }
